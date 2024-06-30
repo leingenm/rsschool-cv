@@ -18,18 +18,18 @@ Currently, I am working as a Test Automation Engineer. Throughout my career, I g
 
 ## Skills
 
-1. Programming languages:
+1. **Programming languages:**
    * C#
    * Java
    * JavaScript
-2. Frameworks:
+2. **Frameworks:**
    * Selenium
    * Selenide
    * WDIO
    * NUnit
    * JUnit
    * Spring
-3. Tools:
+3. **Tools:**
    * Git
    * Docker
    * Postman
