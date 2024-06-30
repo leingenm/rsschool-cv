@@ -2,7 +2,7 @@
 
 ## Test Automation Engineer
 
-<!-- Add photo -->
+![Avatar](./assets/avatar.png)
 
 ## Contact information
 
