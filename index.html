@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body class="container">
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work-exp">Work Experience</a></li>
+                <li><a href="#code">Code Examples</a></li>
+                <li><a href="#personal-projects">Personal Projects</a></li>
+                <li><a href="#edu">Education</a></li>
+                <li><a href="#lang">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about-me">
+            <div class="row">
+                <div class="block">
+                    <img src="./assets/avatar.png" alt="avatar">
+                </div>
+
+                <div class="block">
+                    <h1>Roman Maher</h1>
+                    <h2>Test Automation Engineer</h2>
+
+                    <h2>About me</h2>
+                    <p>
+                        Currently, I am working as a Test Automation Engineer. Throughout my career, I gained experience
+                        building automation frameworks using Java and C# programming languages. I'm interested in
+                        deepening my
+                        knowledge of JavaScript for test automation and web development.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li>Email: roman.mager@outlook.com</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/roman-maher">Roman Maher</a></li>
+                <li>GitHub: <a href="https://github.com/leingenm">leingenm</a></li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ol>
+                <li>Programming Languages
+                    <ul>
+                        <li>C#</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </li>
+                <li>Framework
+                    <ul>
+                        <li>Selenium</li>
+                        <li>Selenide</li>
+                        <li>WDIO</li>
+                        <li>NUnit</li>
+                        <li>JUnit</li>
+                        <li>Spring</li>
+                    </ul>
+                </li>
+                <li>Tools
+                    <ul>
+                        <li>Git</li>
+                        <li>Docker</li>
+                        <li>Postman</li>
+                        <li>Jira</li>
+                        <li>Confluence</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+        <section id="work-exp">
+            <h2>Work Experience</h2>
+            <ul>
+                <li><b>iTechArt Group</b> – Quality Assurance Automation Engineer / Feb 2021 - Jun 2022</li>
+                <li><b>Vention Teams</b> – Test Automation Engineer / Jun 2022 - Present moment</li>
+            </ul>
+        </section>
+
+        <section id="code">
+            <h2>Code Examples</h2>
+            <pre>
+                <code>
+    return new Promise((resolve, reject) => {
+        fetch('https://jsonplaceholder.typicode.com/posts/1')
+            .then(response => {
+            if (response.ok) {
+                resolve(response.json())
+            } else {
+                reject(new Error("Request failed"))
+            }
+            })
+        })
+                </code>
+            </pre>
+        </section>
+
+        <section id="personal-projects">
+            <h2>Personal Projects</h2>
+            <a href="https://github.com/leingenm/ypm">YouTube Playlist Manager</a>
+        </section>
+
+        <section id="edu">
+            <h2>Education</h2>
+            <ul>
+                <li>BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIOELECTRONICS - Bachelor's degree (2015 - 2021)
+                </li>
+                <li>EPAM Java Lab (2018-2019)</li>
+                <li>iTechArt Automation QA Lab (2020-2021)</li>
+            </ul>
+        </section>
+
+        <section id="lang">
+            <h2>Languages</h2>
+            <ul>
+                <li>Russian - Native</li>
+                <li>Belarusian - Native</li>
+                <li>English - B2</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://github.com/leingenm/">
+            <img src="./assets/github-mark.svg" alt="GitHub logo" id="gh-logo">
+        </a>
+
+        <p>2024</p>
+
+        <a href="https://rs.school/courses/javascript-ru">
+            <img src="./assets/rs-school-logo.svg" alt="RS School logo" id="rs-logo">
+        </a>
+    </footer>
+</body>
+
+</html>
